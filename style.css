@@ -1,0 +1,92 @@
+h1{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.container{
+    margin-top:10px;
+    background-color: rgb(133, 129, 129);
+    height:485px;
+    width:350px;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid black;
+
+    
+}
+input{
+    margin-top:15px;
+    width:305px;
+    height:65px;
+    border-radius: 5px;
+    border:1px solid black;
+    font-size: 25px;
+    text-align: right;
+    margin-right: 5px;
+}
+.buttons{
+    
+    margin: 10px;
+}
+button{
+    height:73px;
+    width:73px;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    font-size:20px;
+    
+}
+.r1{
+    margin:1px
+}
+.r2{
+    margin:1px
+}
+.r3{
+    margin:1px
+}
+.r4{
+    margin:1px
+}
+.r5{
+    margin:1px
+}
+.r1:nth-child(4){
+    background-color: rgb(255, 196, 0);
+}
+.r2:nth-child(4){
+    background-color: rgb(255, 196, 0);
+}
+.r3:nth-child(4){
+    background-color: rgb(255, 196, 0);
+}
+.r4:nth-child(4){
+    background-color: rgb(255, 196, 0);
+}
+
+.r5 .r5{
+    background-color: rgb(255, 196, 0);
+}
+button:hover{
+    background-color: rgb(243, 181, 99);
+    cursor: pointer;
+}
+.r1:nth-child(4):hover{
+    background-color: rgb(255, 123, 0);
+}
+.r2:nth-child(4):hover{
+    background-color: rgb(255, 123, 0);
+}
+.r3:nth-child(4):hover{
+    background-color: rgb(255, 123, 0);
+}
+.r4 .r4:hover{
+    background-color: rgb(255, 123, 0);
+}
